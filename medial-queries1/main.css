@@ -1,3 +1,56 @@
 body {
   background: blanchedalmond;
+  
+  
+}
+* {
+  border: 1px solid black;
+}
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: space-between;
+  width: 90%;
+  height: 70vh;
+
+  
+
+}
+ .a {
+    flex-basis: 100%;
+    margin: 1em;
+    height: 20vh;
+  
+
+ }
+ .b {
+   flex-basis: 75%;
+   margin-left: 1em;
+   margin-bottom: 1em;
+   height: 45vh;
+  
+  }
+.c {
+
+  flex-basis: 20%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  height: 45vh;
+  
+}
+
+@media (max-width: 600px) {
+
+.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div {
+
+  
+
+}
 }
