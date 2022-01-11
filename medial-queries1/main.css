@@ -3,54 +3,43 @@ body {
   
   
 }
-* {
-  border: 1px solid black;
-}
+
 
 .container {
-
+  border: 1px solid black;
+  height: 500px;
+  width: 700px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 1em;
-  justify-content: space-between;
-  width: 90%;
-  height: 70vh;
-
+  align-items: flex-start;
+  
+  
+}
+.a, .b, .c {
+  border: chartreuse 1px solid;
   
 
 }
- .a {
-    flex-basis: 100%;
-    margin: 1em;
-    height: 20vh;
-  
 
- }
- .b {
-   flex-basis: 75%;
-   margin-left: 1em;
-   margin-bottom: 1em;
-   height: 45vh;
-  
-  }
+.a {
+  flex-basis: 100%;
+  min-height: 30%;
+  margin: 1em;
+
+}
+.b {
+
+  flex-basis: 75%;
+  min-height: 60%;
+  margin-bottom: 1em;
+}
+
 .c {
 
-  flex-basis: 20%;
-  margin-right: 1em;
+  flex-basis: 15%;
+  min-height: 60%;
   margin-bottom: 1em;
-  height: 45vh;
-  
 }
 
-@media (max-width: 600px) {
-
-.container {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-div {
-
-  
-
-}
-}
+@medi
